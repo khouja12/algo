@@ -1,0 +1,32 @@
+ALGORITHM nb_lentgh_sentence
+VAR
+    str:STRING:="the best of the world"
+    count:INTEGER:0
+BEGIN
+FOR init  FROM i=0 TO i<str STEP i++  DO
+    IF (str[0]1!="") THEN
+        count++
+    END_IF
+END_FOR
+    set_instructions
+END_FOR
+END
+
+
+
+
+
+ALGORITHM nb_words
+VAR
+STRING:="hte best of the world"
+    count:INTEGER:=1
+BEGIN
+    FOR i in str DO
+        IF (i==" ") THEN
+        count+=1
+
+
+        
+        END_IF
+    END_FOR
+END
